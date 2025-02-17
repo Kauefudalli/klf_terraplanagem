@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+a{
+    color: azure;
+}
+
+a:hover{
+    color: blanchedalmond;
+}
+
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+h1{
+    font-weight: 200;
+}
+
+aside{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+.imagem{
+    max-width: 100%;
+    height: 50%;
+    
+}
+
+.container-imagens{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.img-linha-tubo{
+    max-width: 30%;
+    height: 20%;
+}
+
+.img-terraplanagem-chacara{
+    max-width: 20%;
+    height: 20%;
+}
